@@ -44,6 +44,7 @@ function actionApplyer(value,a){
     let result1=a[0](value);
     let result2=a[1](result1);
     let result3=a[2](result2);
+  }
 <<<<<<< HEAD
     return result3;
 =======
