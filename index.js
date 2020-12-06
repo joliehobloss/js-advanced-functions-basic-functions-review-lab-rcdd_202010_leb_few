@@ -44,13 +44,24 @@ function actionApplyer(value,a){
     let result1=a[0](value);
     let result2=a[1](result1);
     let result3=a[2](result2);
+<<<<<<< HEAD
     return result3;
+=======
+    let message = `${value}`+","+" multiplied by 2, added to 1000 and then modulo 7 is " + `${result3}` +". Apply each function in the Array of functions on the given base"+` (${value}) `+"OR on the result of the use of the previous function to get this result";
+    return message;
+>>>>>>> 87efbd02204790bfab27adb82a5d57ce1e57358f
   }
 }
 
 actionApplyer(13, arrayOfTransforms);
 
 
+<<<<<<< HEAD
   
+=======
+    
+
+
+>>>>>>> 87efbd02204790bfab27adb82a5d57ce1e57358f
 
 
